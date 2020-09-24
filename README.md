@@ -10,7 +10,7 @@ Clone the repo into your **catkin_ws**:
 
 ```
 mkdir -p  ~/drone_racing_ws/src && cd ~/drone_racing_ws/src
-git clone https://github.com/TIERS/drone_racing.git
+git clone --recursive https://github.com/TIERS/drone_racing.git
 ```
 
 We recommend using `catkin build`. Install it if needed with
