@@ -1,0 +1,6 @@
+[submodule "hector_localization"]
+	path = hector_localization
+	url = https://github.com/tu-darmstadt-ros-pkg/hector_localization.git
+[submodule "hector_quadrotor"]
+	path = hector_quadrotor
+	url = https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor.git
