@@ -37,7 +37,7 @@ catkin build hector_uav_msgs
 Run the simulator with
 
 ```
-roslaunch
+roslaunch tiers_drone_racing hector_dronerace.launch
 ```
 
 Start the motors
@@ -45,12 +45,7 @@ Start the motors
 rosservice call /enable_motors "enable: true"
 ```
 
-In order to control the UAV with keyboard teleop, first remap the topic
-```
-roslaunch tiers_drone_racing hector_dronerace.launch
-```
-
-and then run the teleop node (install it with `sudo apt install ros-melodic-teleop-twist-keyboard` if you don't have it yet):
+In order to control the UAV with keyboard teleop, run the teleop node (install it with `sudo apt install ros-melodic-teleop-twist-keyboard` if you don't have it yet):
 ```
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
