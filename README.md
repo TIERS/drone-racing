@@ -6,10 +6,12 @@ The races are later done with a Tello drone controlled via ROS, as part of the m
 
 ## Get Started
 
+This instructions are for Ubuntu 18.04 with ROS Melodic already installed.
+
 Install dependencies
 
 ```
-
+sudo apt install ros-melodic-geographic-msgs ros-melodic-hector-gazebo-plugins
 ```
 
 and download Gazebo models database (we actually only use a few of them, this will download the full database with approx. 400MB of basic models):
