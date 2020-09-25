@@ -89,4 +89,4 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
 For any questions, write to `jopequ@utu.fi`.
 
-Visit us in [https://tiers.utu.fi](https://tiers.utu.fi)
+Visit us at [https://tiers.utu.fi](https://tiers.utu.fi)
