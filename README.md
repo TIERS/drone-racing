@@ -6,7 +6,22 @@ The races are later done with a Tello drone controlled via ROS, as part of the m
 
 ## Get Started
 
-Clone the repo into your **catkin_ws**:
+Install dependencies
+
+```
+
+```
+
+and download Gazebo models database (we actually only use a few of them, this will download the full database with approx. 400MB of basic models):
+
+```
+mkdir -p ~/.gazebo
+git clone https://github.com/osrf/gazebo_models ~/.gazebo/models
+```
+
+Read more about the Gazebo database [here](http://gazebosim.org/tutorials?tut=model_structure&cat=build_robot).
+
+With all dependencies downloaded, now clone this repo into your **catkin_ws** (the code below creates a new catkin workspace named `drone_racing_ws` in your home folder):
 
 ```
 mkdir -p  ~/drone_racing_ws/src && cd ~/drone_racing_ws/src
