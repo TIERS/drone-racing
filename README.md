@@ -1,8 +1,8 @@
 # TIERS Drone Racing 
 
-Gazebo simulator with Hector quadrotor for training for the TIERS drone racing. 
+Gazebo simulator with Hector quadrotor to train for the TIERS drone racing challenge. 
 
-The races are later done with a Tello drone controlled via ROS, as part of the master course *Perception and NAvigation in Robotics*.
+The races are later done with a Tello drone controlled via ROS, as part of the master course *Perception and Navigation in Robotics*.
 
 ## Get Started
 
@@ -49,3 +49,9 @@ In order to control the UAV with keyboard teleop, run the teleop node (install i
 ```
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
+
+## Contact
+
+For any questions, write to `jopequ@utu.fi`.
+
+Visit us in [https://tiers.utu.fi](https://tiers.utu.fi)
