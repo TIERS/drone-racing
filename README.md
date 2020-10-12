@@ -18,7 +18,7 @@ git clone --recursive https://github.com/TIERS/drone_racing.git
 Install dependencies
 
 ```
-sudo apt install ros-melodic-geographic-msgs ros-melodic-hector-gazebo-plugins
+sudo apt install ros-melodic-geographic-msgs ros-melodic-hector-gazebo-plugins ros-melodic-hector-sensors-*
 ```
 
 We also need some Gazebo models that we use for the virtual race scenario. You have two opcions here, download the full Gazebo models database, or just a few that we provide to be able to run this simulations. Either way, first create a folder where Gazebo can find your models:
@@ -80,7 +80,12 @@ Start the motors
 rosservice call /enable_motors "enable: true"
 ```
 
-In order to control the UAV with keyboard teleop, run the teleop node (install it with `sudo apt install ros-melodic-teleop-twist-keyboard` if you don't have it yet):
+In order to control the UAV with keyboard teleop, (install it with
+```
+sudo apt install ros-melodic-teleop-twist-keyboard
+``` 
+
+if you don't have it yet, and run the teleop node:
 ```
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
