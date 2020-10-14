@@ -87,7 +87,7 @@ sudo apt install ros-melodic-teleop-twist-keyboard
 
 if you don't have it yet, and run the teleop node:
 ```
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+rosrun tiers_drone_racing tello_controller.py 
 ```
 
 ## Contact
