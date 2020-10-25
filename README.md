@@ -42,7 +42,7 @@ Read more about the Gazebo database [here](http://gazebosim.org/tutorials?tut=mo
 Copy to the same folder the models included in this repo (change the path if you cloned the repo somewhere else):
 
 ```
-cp -r ~/drone_racing_ws/src/drone_racing/gazebo_models ~/.gazebo/models
+cp -r ~/drone_racing_ws/src/drone_racing/gazebo_models/* ~/.gazebo/models/
 ```
 
 
