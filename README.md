@@ -24,7 +24,7 @@ sudo apt install ros-melodic-geographic-msgs ros-melodic-hector-gazebo-plugins r
 We also need some Gazebo models that we use for the virtual race scenario. You have two opcions here, download the full Gazebo models database, or just a few that we provide to be able to run this simulations. Either way, first create a folder where Gazebo can find your models:
 
 ```
-mkdir -p ~/.gazebo
+mkdir -p ~/.gazebo/models
 ```
 
 ### Option 1: Full Gazebo Database
