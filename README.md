@@ -72,13 +72,13 @@ catkin build hector_uav_msgs
 Run the simulator with
 
 ```
-source ~/drone_racing_ws/devel.setup.bash
+source ~/drone_racing_ws/devel.setup/bash
 roslaunch tiers_drone_racing hector_dronerace.launch
 ```
 
 Start the motors in another terminal window/tab:
 ```
-source ~/drone_racing_ws/devel.setup.bash
+source ~/drone_racing_ws/devel.setup/bash
 rosservice call /enable_motors "enable: true"
 ```
 
@@ -90,6 +90,17 @@ sudo apt install ros-melodic-teleop-twist-keyboard
 if you don't have it yet, and run the teleop node in a separate terminal window/tab:
 ```
 rosrun tiers_drone_racing tello_controller.py 
+```
+
+## Camera view
+
+Install the `image_view` package:
+```
+sudo apt install ros-melodic-image-view
+```
+
+```
+rosrun image_view image_view image:=/camera/rgb/image_raw
 ```
 
 ## Contact
