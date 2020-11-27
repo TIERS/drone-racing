@@ -32,7 +32,7 @@ mkdir -p ~/.gazebo/models
 Download Gazebo models database (we actually only use a few of them, this will download the full database with approx. 400MB of basic models):
 
 ```
-git clone https://github.com/osrf/gazebo_models/* ~/.gazebo/models
+git clone https://github.com/osrf/gazebo_models/ ~/.gazebo/models
 ```
 
 Read more about the Gazebo database [here](http://gazebosim.org/tutorials?tut=model_structure&cat=build_robot).
