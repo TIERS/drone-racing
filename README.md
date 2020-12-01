@@ -8,7 +8,7 @@ The races are later done with a Tello drone controlled via ROS, as part of the m
 
 This instructions are for Ubuntu 18.04 with ROS Melodic already installed.
 
-Clone this repo into your **catkin_ws** (the code below creates a new catkin workspace named `drone_racing_ws` in your home folder):
+Clone this repo into your workspace (the code below creates a new catkin workspace named `drone_racing_ws` in your home folder):
 
 ```
 mkdir -p  ~/drone_racing_ws/src && cd ~/drone_racing_ws/src
