@@ -78,7 +78,7 @@ roslaunch tiers_drone_racing hector_dronerace.launch
 
 Start the motors in another terminal window/tab:
 ```
-source ~/drone_racing_ws/devel.setup/bash
+source ~/drone_racing_ws/devel/setup.bash
 rosservice call /enable_motors "enable: true"
 ```
 
